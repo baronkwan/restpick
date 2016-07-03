@@ -6,6 +6,7 @@ People always wasted their time on deciding what to eat. Either for the gatherin
 ###Objective
 To help users save their time from this long lasting problem by helping them to pick a restaurant with authority and no question asked.
 
-Tech Stacks:
+###Tech Stacks
 Frontend - ReactJs
+
 Backend - ?
