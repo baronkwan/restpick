@@ -7,6 +7,28 @@ People always wasted their time on deciding what to eat. Either for the gatherin
 To help users save their time from this long lasting problem by helping them to pick a restaurant with authority and no question asked.
 
 ###Tech Stacks
-Frontend - ReactJs
 
-Backend - ?
+Frontend - ReactJs Only
+
+
+###User story:
+
+- User can register
+
+- User can create a list
+
+- User can invite other user to the list
+
+- Mutilple users can share lists
+
+- Admin and authrized Users can create add update delete item from the list
+
+- All User can vote on item (e.g. restaurant)
+
+
+
+
+###Backend
+
+Data management - TBD
+
