@@ -8,7 +8,7 @@ To help users save their time from this long lasting problem by helping them to 
 
 ###Tech Stacks
 
-Frontend - ReactJs Only
+Frontend - React & Redux (This project is using [react-hot-boilerplate](https://github.com/gaearon/react-hot-boilerplate) by gaearon)
 
 
 ###User story:
