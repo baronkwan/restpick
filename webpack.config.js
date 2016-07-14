@@ -13,6 +13,10 @@ module.exports = {
     filename: 'bundle.js',
     publicPath: '/static/'
   },
+  resolve: {
+    extensions: ['', '.js', '.jsx', '.json']
+  }
+  ,
   plugins: [
     new webpack.HotModuleReplacementPlugin()
   ],
@@ -20,7 +24,12 @@ module.exports = {
     loaders: [{
       test: /\.js$/,
       loaders: ['react-hot', 'babel'],
-      include: path.join(__dirname, 'src')
+      include: path.join(__dirname, 'src'),
+      exclude: /node_modules/
+    },
+    {
+      test: /\.json$/,
+      loader: 'json-loader'
     }]
   }
 };

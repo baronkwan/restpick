@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "uid":0,
+      "username": "aaron",
+      "friends": [1,2,3],
+      "lists": [0]
+    },
+    {
+      "uid":1,
+      "username": "baron",
+      "friends": [0,2,3],
+      "lists": [0]
+    },
+    {
+      "uid":2,
+      "username": "caron",
+      "friends": [0,1,3],
+      "lists": [0]
+    },
+    {
+      "uid":3,
+      "username": "daron",
+      "friends": [0,1,2],
+      "lists": [0]
+    }
+  ]
+}
